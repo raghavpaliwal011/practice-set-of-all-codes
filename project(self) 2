@@ -1,0 +1,92 @@
+#adventure 
+
+name = input ("type your name : ")
+print ("namaste",name)
+question=input("do you want to come to my adventure ?")
+
+if question == "yes":
+    print ("then you are most welcome to the adventure :>")
+
+else:
+    print ("then you can leave :<")
+    quit()
+
+path = input ("you are going from a way on road , you see three paths first has snakes second has fire and third has lions who are hungry from a couple of months wich way will you go ? write(1 to go on first path , 2 for second and 3 for third)")
+if path == "1":
+    print("you got bitten by snakes and died")
+
+elif path == "2":
+    print ("you got burnt in the fire")
+
+elif path =="3":
+    print ("lions were hungry from a couple of months and no one can live this long without food,so you got it right :>")
+
+else:
+    quit()
+
+CHOICE1 = input ("you have crossed the lions and now you are given a car and a bike which one will you choose write(1 for bike and 2 for car)")
+if CHOICE1 == "1":
+    print ("there will be some problems in next path but it will be ok")
+
+elif CHOICE1 == "2":
+    print ("you will be safe on next path")
+
+else:
+    quit()
+
+choice2 = input ("now you have come to an auditorium and there is blood everywhere you get scared and you get out of the auditorium and get to your vehicle and started moving and then out of nowhere some zombies come if you had taken a car you are safe quite a bit and you can run or you can switch to bike write (b for bike and c to stay on car and run )")
+if choice2 == "b":
+    print ("this was not a good decision you ran away without any other option:<")
+elif choice2  == "c":
+    print ("ok but zombies will return :>")
+
+else:
+    quit()
+
+statement = print("you are feeling safe because you have come to a town (whisper : its a ghost town :>)")
+
+statement2 = print("you have come to this town but you are tired and it is the night time so you want to stay and you buy a room of a hotel and you stay here only for one night")
+choice3 = input("next day when you wake up you see all the people are going to a temple and you tried to follow them but the guards stopped you , you can argue with him or sneak in(s to sneak and a to argue)")
+
+if choice3 == "s":
+    print ("you sneak in through the window and now when you see in you see that those people are worshiping a god and they are saying that 'god a person has came to our village should we kill him or make him our friend?'then god replied 'yes' after that hundreads of people came to kill you")
+
+elif choice3 =="a":
+    print ("the guard killed you and you lost",quit())
+
+else:
+    quit()
+
+
+choice4 = input ("now you ran out of that temple and went to the parking and seen a kurumaba and a porche which one will you choose(k for kurumba and p for porche)")
+if choice4=="k":
+    print ("you will be a little more safer than porche in kurumba")
+
+elif choice4 =="p":
+    print ("ok ok good choice but safety is first")
+
+choice5=input ("now when you are driving the car you find a person sleeping at the backseat of your car before you can repond that person had gun on your head and he has a choice for you to kill that god or to go back home write (1 to kill that god and 2 to go back)")
+if choice5 == "1":
+    print("ok now talk to the person")
+
+elif choice5== "2":
+    print("you coward",quit())
+
+else:
+    quit()
+
+choice6=input("person : ok,but we have to find three eggs and put those eggs in the temple which you seen before and in this task there will be a risk of our lifes do you agree with me (a to agree ,b to reject and c to ask a question(its very important to ask a question next your choice :>))")
+if choice6 == "a":
+    print ("ok but you agree to him without asking any question you are a real dumb:>")
+
+elif choice6 =="b":
+    print ("ok now you are allowed to leave this game :>",quit())
+
+elif choice6 =="c":
+    print ("you : why would you take your life to risk ?")
+    print ("person : kid i am almost 80 and there is no way that i can live long so that is why i wanted to save the world from that monster and only i know the location of those eggs that is the reason i am putting my life in danger and note : i still have strength in my body ok so i will also fight that monster and my name is steve")
+
+else:
+    quit()
+
+statement = print ("you: ok but tell me the location of those eggs / person : no today we will rest tomorrow we will go")
